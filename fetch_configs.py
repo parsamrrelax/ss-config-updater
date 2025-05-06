@@ -7,11 +7,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-HEADERS = """//profile-title: base64:YWluaXRhLm5ldA==
+HEADERS = """//profile-title: base64:c2hhZG93
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
-//support-url: info@ainita.net
-//profile-web-page-url: https://ainita.net"""
+//profile-web-page-url: https://github.com/parsamrrelax"""
 
 def fetch_config(url, server_number):
     https_url = url.replace('ssconf://', 'https://')
